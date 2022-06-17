@@ -1,39 +1,38 @@
-import styled from 'styled-components';
-import { COLORS } from '../../../constants';
+import styled from "styled-components";
+import { COLORS } from "../../../constants";
 
 export const Container = styled.div`
   width: 50%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-content: center;
-  
-  ul{
+
+  ul {
     width: 50%;
     display: flex;
-    flex-direction: row; 
-    li{
+    flex-direction: row;
+    li {
       width: 100%;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      a{ 
+      a {
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
         margin: 0 10px;
         font-size: 26px;
-        
+
         text-decoration: none;
         color: ${COLORS.merigold};
-        :hover{
+        :hover {
           transition: 0.3s;
-          padding: 0 15px;
+          padding: 0 10px;
           font-size: 30px;
-          border-bottom: 3px solid ${COLORS.merigold};
+          border-bottom: 1px solid ${COLORS.merigold};
           border-radius: 5px;
         }
-
       }
     }
   }

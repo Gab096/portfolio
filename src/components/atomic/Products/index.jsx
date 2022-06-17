@@ -2,11 +2,12 @@ import React from 'react';
 
 import { Container } from './styled';
 
-function Products() {
+function Products({title}) {
+
   return (
   <Container> 
     <div className='price'>
-		<h2>cobre</h2>
+		<h2>{title}</h2>
 		<span><sup>R$</sup>19</span>
 			<ul>
 				<li>Planos Ilimitados</li>

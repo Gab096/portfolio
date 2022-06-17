@@ -5,7 +5,7 @@ import { Container } from './styled';
 function Header() {
   return (
   <Container>
-    <h1>kedev</h1>
+    <h1>Gabriel Nogueira</h1>
     <Menu/>
   </Container>
   );
