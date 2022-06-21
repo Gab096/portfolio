@@ -1,17 +1,17 @@
-import styled from 'styled-components';
-import { COLORS } from '../../../constants';
+import styled from "styled-components";
+import { COLORS } from "../../../constants";
 
 export const Container = styled.header`
   display: flex;
-  padding: 10px;
+  padding: 15px 0;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   width: 100%;
   background: ${COLORS.steel};
-  box-shadow: 0px 2px 2px 1px rgba(255, 255, 255,0.1);
+  box-shadow: 3px 2px 2px 1px rgba(94, 97, 100, 0.7);
 
-  h1{
+  h1 {
     width: 50%;
     color: ${COLORS.merigold};
     width: auto;

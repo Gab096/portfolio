@@ -17,21 +17,13 @@ export const Container = styled.div`
       flex-direction: row;
       justify-content: space-around;
       a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
         margin: 0 10px;
-        font-size: 26px;
+        font-size: 20px;
 
-        text-decoration: none;
         color: ${COLORS.merigold};
         :hover {
-          transition: 0.3s;
-          padding: 0 10px;
-          font-size: 30px;
-          border-bottom: 1px solid ${COLORS.merigold};
-          border-radius: 5px;
+          transition: 0.5s;
+          color: ${COLORS.aliceBlue};
         }
       }
     }

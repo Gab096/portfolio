@@ -1,14 +1,14 @@
-import React from 'react';
-import { Container } from './styled';
-import Header from '../../components/molecules/header';
-import Parallax from '../../components/molecules/parallax/indes';
+import React from "react";
+import { Container } from "./styled";
+import Header from "../../components/organisms/header";
+import Main from "../../components/organisms/main";
 function home() {
   return (
     <Container>
-      <Header/>
-      <Parallax/>
+      <Header />
+      <Main />
     </Container>
-    );
+  );
 }
 
 export default home;
