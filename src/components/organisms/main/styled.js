@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { COLORS } from "../../../constants";
 
 export const Container = styled.div`
-  background-color: black;
+  background: ${COLORS.black};
   color: ${COLORS.aliceBlue};
   height: 100%;
   width: 100%;
@@ -12,11 +12,8 @@ export const Container = styled.div`
 `;
 export const TextContainer = styled.div`
   width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   h1 {
+    font-family: "DM Sans";
     color: ${COLORS.aliceBlue};
   }
   span {
@@ -25,6 +22,28 @@ export const TextContainer = styled.div`
     color: ${COLORS.merigold};
   }
   p {
-    width: 46%;
+    text-align: justify;
+  }
+`;
+export const Description = styled.div`
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  button {
+    margin-top: 32px;
+    width: 20%;
+    height: 48px;
+    border-radius: 10px;
+    background: ${COLORS.steel};
+    color: ${COLORS.aliceBlue};
+    :hover {
+      border: 1px solid ${COLORS.merigold};
+    }
+    :focus {
+      background: ${COLORS.merigold};
+      color: ${COLORS.black};
+    }
   }
 `;
