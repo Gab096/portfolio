@@ -4,7 +4,7 @@ import { COLORS } from "../../../constants";
 export const Container = styled.div`
   background: ${COLORS.black};
   color: ${COLORS.aliceBlue};
-  height: 100%;
+  height: 100vh;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -41,7 +41,7 @@ export const Description = styled.div`
     :hover {
       border: 1px solid ${COLORS.merigold};
     }
-    :focus {
+    :active {
       background: ${COLORS.merigold};
       color: ${COLORS.black};
     }
